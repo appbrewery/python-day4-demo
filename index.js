@@ -3,7 +3,35 @@ var CurrentId = undefined;
 
 var inputValues = [];
 
+const rock = `
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
 
+`;
+
+const paper = `
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+
+`;
+
+const scissors = `
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+
+`;
 const game_images = [rock, paper, scissors];
 const inputPrompts = [];
 let isFirstClick = true;
